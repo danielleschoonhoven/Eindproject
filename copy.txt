@@ -1,0 +1,174 @@
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+<link rel="icon" href="http://pngimg.com/uploads/harbor_seal/harbor_seal_PNG19.png"> 
+<title>Animaltown</title> <meta charset="utf-8"/> 
+<link rel="stylesheet" type="text/css" href="index.css"> 
+</head> 
+<body> 
+
+<a href="1.html">
+<div class="een">
+  <img src="sunflower.jpg" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+</a>
+
+</body> 
+</html>
+
+
+body {
+	background-image: url("https://nl.metrotime.be/wp-content/uploads/2018/10/BELGAIMAGE-138452950-696x462.jpg");
+
+	background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
+
+
+.een {
+  position: relative;
+  width: 100px;
+  height:100px;
+ 
+}
+
+.image {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.overlay {
+  position: absolute;
+  bottom:100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+ 
+  transition: .5s ease;
+}
+
+.een:hover .overlay {
+bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+<link rel="icon" href="http://pngimg.com/uploads/harbor_seal/harbor_seal_PNG19.png"> 
+<title>Animaltown</title> <meta charset="utf-8"/> 
+<link rel="stylesheet" type="text/css" href="index.css"> 
+</head> 
+<body> 
+  <!--Hier eindigd div "bovenbalk" --> 
+ 
+       <!--Hier eindingd div "icon-bar"--> 
+       <div class="container"> 	<div class="een">
+        	 	
+                     	</div> 	
+                          </div> 
+                          </body> 
+                          </html>
+
+                                  #container {
+            display: flex;
+            background-color: grey;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    
+        .een {
+            width: 50pc;
+            height: 50px auto;
+            background-color: whitesmoke;
+            padding: 5px;
+            color: black;
+            font-family: Arial, sans-serif;
+            font-size: 1.5rem;
+            text-align: justify;
+        }
+        .image {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+        
+        .overlay {
+  position: absolute;
+  bottom:100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+ 
+  transition: .5s ease;
+}
+
+.een:hover .overlay {
+bottom: 0;
+  height: 100%;
+}
+        .fotobox {
+            width: 250px;
+            height: 250px;
+            background-image: url(periode_1/plaatje_3.jpg);
+            background-color: orange;
+            /* background-size: 250px 250px; */
+            /* background-size: 100%; */
+            background-size: contain; /* probeer ook eens cover */
+            background-repeat: no-repeat;
+            background-position: center; 
+            margin: 0px 20px;
+            border: 10px solid black;
+            position: relative;
+        }
+        
+       
+               
+
+      .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
